@@ -30,7 +30,7 @@ public class Variable2 {
 //		例）
 //		あなたの年齢を予想します。
 //		あなたの年齢はおそらく〇〇歳ですね？
-		int rand = (int)(Math.random()*100);
+		int rand = (int)(Math.random()*101);
 		
 		System.out.println("あなたの年齢を予想します。");
 		System.out.println("あなたの年齢はおそらく" + rand + "歳ですね？");
