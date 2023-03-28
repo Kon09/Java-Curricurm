@@ -17,7 +17,7 @@ public class practice {
 
 	public static void main(String[] args) {
 		int i = 1;
-		for(int a = 0; a <= 10; a++) {
+		for(int a = 0; a <= 9; a++) {
 			System.out.println(i += 2);
 		}
 
