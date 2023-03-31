@@ -33,6 +33,8 @@ public class practice {
 			System.out.println(alpha[i]);
 		}
 		
+		System.out.println();
+		
 		for(int i = 0; i < alpha.length; i++) {
 			if(i == 8) {
 				continue;
