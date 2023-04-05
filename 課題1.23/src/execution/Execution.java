@@ -4,6 +4,17 @@ import data.Data;
 public class Execution {
 
 	public static void main(String[] args) {
+		/*
+	 	
+	 	下記がコンソールに出力されるように作成してください
+	 	※thisとsetterとgetterとフィールドを使ってください
+	 	
+	  	動物名：ライオン
+		体長：2.1m
+		速度：80km/h
+	 	
+	 */
+		
 		Data d = new Data();
 		d.setAnimal("ライオン");
 		d.setSize(2.1);
