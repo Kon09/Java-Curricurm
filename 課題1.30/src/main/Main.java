@@ -43,7 +43,9 @@ import process.Process;
 public class Main {
 
 	public static void main(String[] args) {
+//		処理ファイル「Process.java」のProcessクラスをインスタンス化
 		Process pro = new Process();
+//		Processクラスのdisp()メソッドを実行
 		pro.disp();
 	}
 
