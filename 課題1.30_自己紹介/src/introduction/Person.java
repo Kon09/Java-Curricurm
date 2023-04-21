@@ -28,7 +28,9 @@ public double bmi() {
 public void print() {
 	System.out.println("私の名前は" + this.name + "です");
 	System.out.println("年は" + this.age + "才です");
-	System.out.println("BMIは" + String.format("%.1f", this.bmi()) + "です" );
+	//	小数点以下の切り捨て処理を追加
+	System.out.println("BMIは" + Math.floor(bmi()) + "です" );
+	System.out.println("");
 }
 
 //人数計算メソッド
