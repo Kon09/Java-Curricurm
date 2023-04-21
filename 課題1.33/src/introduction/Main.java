@@ -10,7 +10,7 @@ public class Main {
 		Person person2 = new Person("山田", "花子", 22, 1.5, 40);
 		person2.print();
 		
-//		クラスメソッドにて人数をカウント(問6)
+//		クラスメソッドにて人数をカウント
 		Person.printCount();
 		System.out.println("");
 		

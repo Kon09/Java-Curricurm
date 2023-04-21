@@ -9,6 +9,15 @@ public class Person {
 	public double height, weight;
 	
 //	コンストラクタを定義しインスタンスフィールドに値をセット
+Person(String firstName, int age, double height, double weight){
+	this.firstName = firstName;
+	this.age = age;
+	this.height = height;
+	this.weight = weight;
+	Person.count++;
+}
+
+//	コンストラクタを追加定義(オーバーロード)
 Person(String firstName, String lastName, int age, double height, double weight){
 	this.firstName = firstName;
 	this.lastName = lastName;
@@ -34,7 +43,7 @@ public String fullName() {
 public void print() {
 	System.out.println("私の名前は" + this.fullName() + "です");
 	System.out.println("年は" + this.age + "才です");
-	//	小数点以下の切り捨て処理を追加
+	//	小数点以下の切り捨て処理
 	System.out.println("BMIは" + Math.floor(this.bmi()) + "です" );
 	System.out.println("");
 }
